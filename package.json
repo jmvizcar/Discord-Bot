@@ -1,0 +1,17 @@
+{
+  "name": "quotesbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "quotesBot.js",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "mongodb": "^3.6.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
