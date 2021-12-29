@@ -18,7 +18,8 @@ Once the .env file has been set up, the bot will log into MongoDB
 All commands will start with "/quote".  
 As of now, it currently has two commands: get and add
 ### Get
-The get command requires an alias for lookup. The bot will then query the database for the person and retrieve a random quote from the document.  Example: /quote get tester
+The get command requires an alias for lookup. The bot will then query the database for the person and retrieve a random quote from the document.  
+Example: /quote get tester
 ### Add
 The add command requires an alias and a string. The alias and string should be separated by a "-" with spaces on both sides. The bot will then query the database to update the existing document with the new quote.  
 Example: /quote add tester - This is a quote!
