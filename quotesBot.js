@@ -53,7 +53,7 @@ async function DBManager(req) {
         } 
         
     } catch{
-        console.log("You done f'ed up");
+        console.log("An error has occured.");
     } finally {
         return res;
         // This returns the actual Object in the end. The previous returns are to assign res its value.
